@@ -156,6 +156,14 @@ world-news-aggregator-skill/
 
 ## 📝 更新日志
 
+### v1.1.0 (2026-03-10)
+- ✨ 新增 Hacker News、Ars Technica、Google AI Blog 等源
+- 🔧 改进错误处理和重试机制 (指数退避)
+- 🔄 添加 User-Agent 轮换避免限流
+- 📊 新增信息源状态报告
+- 📝 优化输出格式和重要性评级
+- 🐛 修复 arXiv Atom feed 解析
+
 ### v1.0.0 (2026-03-10)
 - ✨ 初始版本发布
 - 🌐 支持 50+ 全球信息源
