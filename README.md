@@ -38,14 +38,21 @@
 
 ## 📥 安装指南
 
-### 方法 A：使用 Git（推荐）
+### 方法 1：使用 NPX（推荐）
+
+```bash
+# 直接从远程仓库添加
+npx skills add https://github.com/BODYsuperman/world-news-aggregator-skill
+```
+
+### 方法 2：使用 Git
 
 ```bash
 # 克隆到你的 OpenClaw skills 目录
 git clone https://github.com/BODYsuperman/world-news-aggregator-skill.git ~/.openclaw/skills/world-news
 ```
 
-### 方法 B：手动下载
+### 方法 3：手动下载
 
 ```bash
 # 下载并解压到 skills 目录
@@ -177,7 +184,6 @@ world-news-aggregator-skill/
 
 ## 🙏 致谢
 
-- 灵感来源：[cclank/news-aggregator-skill](https://github.com/cclank/news-aggregator-skill)
 - OpenClaw 团队提供的 Skill 框架
 - 所有信息源的开放 API
 
