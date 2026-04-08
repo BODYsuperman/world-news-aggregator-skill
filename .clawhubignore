@@ -1,0 +1,7 @@
+.git
+.gitignore
+.clawhubignore
+node_modules
+*.md
+!README.md
+!SKILL.md
